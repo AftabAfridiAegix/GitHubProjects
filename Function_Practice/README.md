@@ -7,6 +7,8 @@ This folder contains practical implementations of custom Python functions, focus
 * `BMI_Function.py`: A script calculating Body Mass Index using patient metrics and functional categorization rules based on calculated output ranges.
 * `temp_function.py`: A script evaluating Celsius temperature scales to categorize clinical body temp states using clean conditional blocks.
 * `test_settings.py`: A configuration management panel demonstrating structured dictionary manipulation through custom functional workflows to add, update, delete, and view settings securely.
+* `Factorial.py`: A script demonstrating mathematical recursion and iterative workflows to compute the product of an integer sequence.
+
 
 ## Core Concepts Covered
 1. **Modular Logic**: Utilizing the def keyword to break down complex scripts into independent, reusable functional units.
@@ -20,3 +22,5 @@ Below are the conceptual flowcharts mapped for this module:
 ![BMI Function Diagram](images/BMI_Function.png)
 ![Temperature Conversion Diagram](images/temp_function.png)
 ![Test Settings Configuration Diagram](images/test_settings.png)
+![Factorial Diagram](images/Factorial.png)
+
