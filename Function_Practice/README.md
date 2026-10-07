@@ -8,6 +8,7 @@ This folder contains practical implementations of custom Python functions, focus
 * `temp_function.py`: A script evaluating Celsius temperature scales to categorize clinical body temp states using clean conditional blocks.
 * `test_settings.py`: A configuration management panel demonstrating structured dictionary manipulation through custom functional workflows to add, update, delete, and view settings securely.
 * `Factorial.py`: A script demonstrating mathematical recursion and iterative workflows to compute the product of an integer sequence.
+* `fibonacci.py`: A script demonstrating mathematical recursion and iterative workflows to generate the Fibonacci sequence up to a specified limit.
 
 
 ## Core Concepts Covered
@@ -23,4 +24,4 @@ Below are the conceptual flowcharts mapped for this module:
 ![Temperature Conversion Diagram](images/temp_function.png)
 ![Test Settings Configuration Diagram](images/test_settings.png)
 ![Factorial Diagram](images/Factorial.png)
-
+![Fibonacci Diagram](images/Fibonacci.png)
