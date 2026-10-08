@@ -9,15 +9,16 @@ This folder contains practical implementations of custom Python functions, focus
 * `test_settings.py`: A configuration management panel demonstrating structured dictionary manipulation through custom functional workflows to add, update, delete, and view settings securely.
 * `Factorial.py`: A script demonstrating mathematical recursion and iterative workflows to compute the product of an integer sequence.
 * `fibonacci.py`: A script demonstrating mathematical recursion and iterative workflows to generate the Fibonacci sequence up to a specified limit.
-
+* `prime.py`: A script utilizing optimization loops and boolean return logic to check whether a given integer is a prime number.
 
 ## Core Concepts Covered
-1. **Modular Logic**: Utilizing the def keyword to break down complex scripts into independent, reusable functional units.
+1. **Modular Logic**: Utilizing the `def` keyword to break down complex scripts into independent, reusable functional units.
 2. **Parameters and Return Operations**: Passing dynamic arguments into functions to return calculated outcomes cleanly back to the caller scope.
 3. **Data Structure Interaction**: Integrating dictionaries with custom functions to securely read, update, and manage persistent key-value configuration flags.
+4. **Algorithmic Optimizations**: Implementing basic mathematical primality testing using efficient boundary loops inside isolated functions.
 
 ## Visual Diagrams
-Below are the conceptual flowcharts mapped for this module:
+Below are the conceptual flowcharts and execution verifications mapped for this module:
 
 ![Core Function Mechanics Diagram](images/function.png)
 ![BMI Function Diagram](images/BMI_Function.png)
@@ -25,3 +26,4 @@ Below are the conceptual flowcharts mapped for this module:
 ![Test Settings Configuration Diagram](images/test_settings.png)
 ![Factorial Diagram](images/Factorial.png)
 ![Fibonacci Diagram](images/Fibonacci.png)
+![Prime Number Verification](images/prime.png)
