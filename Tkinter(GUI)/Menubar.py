@@ -1,0 +1,31 @@
+from tkinter import *
+
+def openFile():
+    print("File has been opened!")
+def saveFile():
+    print("File has been saved!")
+def cut():
+    print("You cut sole text!")
+def copy():
+    print("you copied some text!")
+def paste():
+    print("you paste some text")
+
+
+window = Tk()
+
+menubar = Menu(window)
+window.config(menu = menubar)
+
+fileMenu = Menu(menubar, tearoff = 0, font=("MV Boli", 15))
+menubar.add_cascade(label = "File", menu = fileMenu)
+fileMenu.add_command(label = "Open", command =openFile)
+fileMenu.add_command(label = "Save", command = saveFile)
+fileMenu.add_separator()
+fileMenu.add_command(label = "Exit", command = quit)
+
+editMenu = Menu(menubar, tearoff=0)
+menubar.add_cascade(label = "Edit", menu = editMenu)
+editMenu.add_command(label = "Cut", command = cut)
+editMenu.add_command(label = "Copy", command = copy)
+window.mainloop()
